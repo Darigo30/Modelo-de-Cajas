@@ -11,9 +11,9 @@
         }
         .contenedor-imagen-48 {
             position: relative;
-            width: 220px;
+            display: inline-block;
         }
-        .imagen-overlay-48 img {
+        .imagen-overlay-48 {
             width: 60px;
             position: absolute;
             bottom: 60px;
@@ -23,10 +23,8 @@
     <body>
         <main>
             <div class="contenedor-imagen-48">
-                <div class="imagen-overlay-48">
-                    <img src="img/ejercicio-6_ribbon.png">
-                </div>
-                <img src="img/ejercicio-6.png">
+               <img class="imagen-overlay-48" src="img/ejercicio-6_ribbon.png">
+               <img src="img/ejercicio-6.png">
             </div>
         </main>
     </body>
