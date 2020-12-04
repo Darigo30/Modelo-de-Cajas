@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.contenido{
+    padding: 40px;
+    &__lateral{
+        position: absolute;
+    right: 0;
+    top: 0;
+    }
+}
+

@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #B0CCAB;
+  padding: 50px;
+}
+.main__paragraph {
+  left: 40px;
+  position: relative;
+}
+
+/*# sourceMappingURL=style.css.map */

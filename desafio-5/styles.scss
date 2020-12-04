@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.contenedor-imagen {
+    position: relative;
+    width: 220px;
+    &__imagen-overlay img{
+    width: 170px;
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    }
+}

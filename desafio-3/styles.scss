@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body, p, section, article{
+        margin: 0;
+        padding: 0;
+}
+.banderas {
+        width: calc(50% - 32px);
+        position: relative;
+        margin: 5px 15px;
+        display: inline-block;
+        border: 1px solid gray;
+        height: 300px;
+    /*Espana*/
+    &__espana{
+        background-color: #FF0000;
+        height: 100%;
+    }
+    &__franja-amarilla{
+        background-color: #FFFF00;
+        height: 60px;
+        position: absolute;
+        z-index: 9;
+        top: 35%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    /*Dinamarca*/
+    &__dinamarca{
+        background-color: #FF0000;
+        height: 100%;
+    }
+    &__franja-blanca-one{
+        background-color: #fff;
+        height: 30px;
+        position: absolute;
+        z-index: 9;
+        top: 40%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    &__franja-blanca-two{
+        background-color: #fff;
+        height: 100%;
+        width: 30px;
+        position: absolute;
+        left: 120px;
+        top: 0;
+    }
+    /*Emiratos Árabes*/
+    &__emiratos-arabes{
+        background-color: #fff;
+        height: 100%;
+    }
+    &__franja-roja{
+        background-color: #FF0000;
+        height: 100%;
+        width: 100px;
+        position: absolute;
+        z-index: 1;
+    }
+    &__franja-verde{
+        background-color: #008000;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+    }
+    &__franja-negra{
+        background-color: #000;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+    }
+    /*Japón*/
+    &__japon{
+        background-color: #fff;
+        height: 100%;
+    }
+    &__circulo{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: #FF0000;
+        right: 0;
+        left: 0;
+        top: 25%;
+        bottom: 0;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 767px) {
+    .banderas {
+        width: 100%;
+    }
+}

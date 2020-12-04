@@ -1,37 +1,43 @@
-body{
-	padding: 0;
-	margin: 0;
-}
-nav{
-	background-color: #000;
-	padding: 20px;
-}
-a{
-	text-decoration: none;
-}
-h1{
-	color: #fff;
-}
-aside{
-	background-color: #EEEEEE;
-	float: left;
-	padding: 0 50px 26px;
-}
-main {
-    display: inline-block;
-    padding: 10px;
-	width: 80%;
-}
-footer{
-	background-color: #AAAAAA;
-	padding: 5px;
-	text-align: center;
-	color: #fff;
-	margin-top: 8px;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-@media (max-width: 1046px){
-	main{
-		width: 60%;
-	}
+nav {
+  background-color: #000;
+  padding: 20px;
 }
+nav h1 {
+  color: #fff;
+}
+
+aside {
+  background-color: #EEEEEE;
+  float: left;
+  padding: 0 50px 26px;
+}
+aside a {
+  text-decoration: none;
+}
+
+main {
+  display: inline-block;
+  padding: 10px;
+  width: 80%;
+}
+
+footer {
+  background-color: #AAAAAA;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  margin-top: 8px;
+}
+
+@media (max-width: 1046px) {
+  main {
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

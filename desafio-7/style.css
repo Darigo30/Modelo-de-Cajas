@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.contenido {
+  padding: 40px;
+}
+.contenido__lateral {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: #B0CCAB;
+    padding: 50px;
+    &__paragraph {
+        left: 40px;
+        position: relative;
+    }
+}
